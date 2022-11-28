@@ -154,7 +154,6 @@ mod posts {
         }
 
         /// Constructor that initializes the `bool` value to `false`.
-        ///
         /// Constructors can delegate to other constructors.
         #[ink(constructor)]
         pub fn default() -> Self {
